@@ -402,7 +402,7 @@ def main():
     w = int(((960 / 2) // 14) * 14)
     h = int(((540 / 2) // 14) * 14)
     lr = 1e-4
-    n_epochs = 10
+    n_epochs = 30
 
     # Output directory (relative to script location)
     script_dir = os.path.dirname(os.path.abspath(__file__))
